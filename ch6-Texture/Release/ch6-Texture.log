@@ -1,0 +1,25 @@
+﻿Build started 2015/2/15 9:47:29.
+     1>Project "D:\OpenGL\OpenGLwiki\ch6-Texture\ch6-Texture.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\OpenGL\OpenGLstep\include /ID:\OpenGL\bluebook\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "ch6-Texture.cpp"
+         ch6-Texture.cpp
+     1>ch6-Texture.cpp(133): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenGL\OpenGLwiki\Release\ch6-Texture.exe" /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OpenGL\OpenGLwiki\Release\ch6-Texture.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenGL\OpenGLwiki\Release\ch6-Texture.lib" /MACHINE:X86 /SAFESEH "Release\ch6-Texture.obj"
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilGenImages@8
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilBindImage@4
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol "char * __cdecl textFileRead(char const *)" (?textFileRead@@YAPADPBD@Z)
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilConvertImage@8
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilGetData@0
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilLoadImage@4
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilDeleteImages@8
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilInit@0
+     1>ch6-Texture.obj : error LNK2001: unresolved external symbol __imp__ilGetInteger@4
+     1>D:\OpenGL\OpenGLwiki\Release\ch6-Texture.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "D:\OpenGL\OpenGLwiki\ch6-Texture\ch6-Texture.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.93
