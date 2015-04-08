@@ -1,0 +1,19 @@
+﻿Build started 2015/2/15 9:47:22.
+     1>Project "D:\OpenGL\OpenGLwiki\ch7-LoadModel\ch7-LoadModel.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\OpenGL\OpenGLstep\include /ID:\OpenGL\bluebook\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "ch7-LoadModel.cpp" objmesh.h
+         ch7-LoadModel.cpp
+         objmesh.h
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenGL\OpenGLwiki\Release\ch7-LoadModel.exe" /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\OpenGL\OpenGLwiki\Release\ch7-LoadModel.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenGL\OpenGLwiki\Release\ch7-LoadModel.lib" /MACHINE:X86 /SAFESEH "Release\ch7-LoadModel.obj"
+         Release\objmesh.obj
+     1>objmesh.obj : error LNK2005: "public: void __thiscall objMesh::render(void)" (?render@objMesh@@QAEXXZ) already defined in ch7-LoadModel.obj
+     1>objmesh.obj : error LNK2005: "public: void __thiscall objMesh::init(unsigned int)" (?init@objMesh@@QAEXI@Z) already defined in ch7-LoadModel.obj
+     1>objmesh.obj : error LNK2005: "public: void __thiscall objMesh::load_obj(char const *)" (?load_obj@objMesh@@QAEXPBD@Z) already defined in ch7-LoadModel.obj
+     1>ch7-LoadModel.obj : error LNK2001: unresolved external symbol "char * __cdecl textFileRead(char const *)" (?textFileRead@@YAPADPBD@Z)
+     1>D:\OpenGL\OpenGLwiki\Release\ch7-LoadModel.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\OpenGL\OpenGLwiki\ch7-LoadModel\ch7-LoadModel.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.53
